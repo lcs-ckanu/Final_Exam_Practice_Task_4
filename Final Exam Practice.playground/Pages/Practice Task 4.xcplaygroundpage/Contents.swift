@@ -25,14 +25,17 @@ import PlaygroundSupport
 
 // Create a new canvas
 let canvas = Canvas(width: 400, height: 600)
+canvas.fillColor = Color(hue: 338, saturation: 83, brightness: 89, alpha: 100)
+canvas.drawRectangle(centreX: 200, centreY: 300, width: 400, height: 600)
 
 // COLORS
 let pink = Color(hue: 338, saturation: 83, brightness: 89, alpha: 100)
 let black = Color(hue: 0, saturation: 0, brightness: 0, alpha: 100)
 let beige = Color(hue: 69, saturation: 6, brightness: 87, alpha: 100)
 
-// Begin your solution here... 
-
+// Begin your solution
+canvas.drawText(message: "Friday", size: 10, x: 20, y: 555)
+canvas.drawText(message: "august 9 1977", size: 10, x: 20, y: 545)
 /*:
  **Remember to commit and push your work,please**.
  */
